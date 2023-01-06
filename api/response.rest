@@ -1,0 +1,13 @@
+GET http://localhost:3004/todos
+###
+POST http://localhost:3004/todo/new
+Content-Type: application/json
+
+{
+    "text" : "oil"
+}
+###
+DELETE http://localhost:3004/todo/delete/63a873256802ea9ea2ba8bc6
+
+###
+PUT http://localhost:3004/todo/complete/63a8765df8b6fdb186534829
