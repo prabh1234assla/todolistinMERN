@@ -1,0 +1,84 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.App{
+  background-color: pink;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: palevioletred;
+  font: 2em monospace;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  user-select: none;
+}
+
+.list{
+  height: fit-content;
+  width: 40em;
+  user-select: none;
+}
+
+.task{
+  background-color: rgba(139, 0, 139, 0.1);
+  border-radius: 1em;
+  padding: 0.1em 1em;
+  margin-bottom: 1em;
+  overflow: auto;
+  user-select: none;
+}
+
+.task:hover{
+  background-color: rgba(119, 119, 119, 0.6);
+}
+
+.task:active{
+  background-color: rgba(119, 119, 119, 0.2);
+}
+
+.task:first-child{
+  border-top: 0;
+}
+
+.task .name{
+  color: rgb(186, 3, 64);
+  user-select: none;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.task .timestamp{
+  color: rgb(204, 73, 116);
+  user-select: none;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.task .checked{
+  color: rgb(105, 99, 101);
+  user-select: none;
+  background-color: pink;
+  width: 2em;
+  height: 1em;
+  border-radius: 50%;
+  margin: 0.2em;
+  text-align: center;
+  user-select: none;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 3em;
+  float: right;
+  padding-bottom: 0.5em;
+}
+
+.task .checked:hover{
+  color: rgb(253, 172, 172);
+  background-color: rgb(214, 98, 137);
+}
+
+.task .checked:active{
+  color: rgb(149, 8, 83);
+}

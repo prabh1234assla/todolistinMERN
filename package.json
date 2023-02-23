@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.10.0",
+    "react": "^18.2.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "hello",
+  "description": "![todo png](todo.png)",
+  "version": "1.0.0",
+  "main": "3.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabh1234assla/todolistinMERN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabh1234assla/todolistinMERN/issues"
+  },
+  "homepage": "https://github.com/prabh1234assla/todolistinMERN#readme"
+}
